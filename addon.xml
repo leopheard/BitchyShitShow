@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.bitchyshitshow" name="Bitchy Shitshow" version="1.0.0" provider-name="leopheard">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+    <import addon="script.module.routing" version="0.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language>en_us</language>
+    <summary lang="en">Bitchy Shitshow</summary>
+    <description lang="en">Bitchy Shitshow is an anti-oppression podcast. We approach all social justice topics from an anti-capitalist, anarchist, feminist, queer and pro-liberation perspective. We talk about things with a raw, philosophical viewpoint - always challenging ourselves and our listeners to think in a different way and grow from that experience.</description>
+    <license>The MIT License (MIT)</license>
+    <forum></forum>
+    <email>leopheard@gmail.com</email>
+    <source>https://github.com/leopheard/BitchyShitshow</source>
+    <website>https://bitchyshitshow.com/</website>
+        	<assets>
+			<icon>resources/media/icon.jpg</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+			<screenshot>resources/media/1.jpg</screenshot>
+			<screenshot>resources/media/icon.jpg</screenshot>
+			<screenshot>resources/media/icon.jpg</screenshot>
+		</assets>
+  </extension>
+</addon>
